@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/FPGA/delay_sample/delay_sample.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/FPGA/delay_sample/delay_sample.srcs/sim_1/new/delay_sample_tb.v,1666428277,verilog,,,,delay_sample_tb,,,,,,,,
+D:/FPGA/delay_sample/delay_sample.srcs/sources_1/new/delay_sample.v,1666427571,verilog,,D:/FPGA/delay_sample/delay_sample.srcs/sources_1/new/ram_2port.v,,delay_sample,,,,,,,,
+D:/FPGA/delay_sample/delay_sample.srcs/sources_1/new/ram_2port.v,1666427543,verilog,,D:/FPGA/delay_sample/delay_sample.srcs/sim_1/new/delay_sample_tb.v,,ram_2port,,,,,,,,
