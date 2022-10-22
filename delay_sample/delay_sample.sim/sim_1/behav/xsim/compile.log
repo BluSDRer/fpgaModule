@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/delay_sample/delay_sample.srcs/sources_1/new/delay_sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/delay_sample/delay_sample.srcs/sources_1/new/ram_2port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/delay_sample/delay_sample.srcs/sim_1/new/delay_sample_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_sample_tb
