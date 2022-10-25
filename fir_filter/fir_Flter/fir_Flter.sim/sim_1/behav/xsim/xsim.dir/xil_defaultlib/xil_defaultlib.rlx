@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.srcs/sim_1/new/fir_filter_tb.v,1666704647,verilog,,,,fir_filter_tb,,,,,,,,
+C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.srcs/sources_1/ip/fir_compiler_0/sim/fir_compiler_0.vhd,1666690007,vhdl,,,,fir_compiler_0,,,,,,,,
+C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.srcs/sources_1/new/fir_filter.v,1666690207,verilog,,C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.srcs/sim_1/new/fir_filter_tb.v,,fir_filter,,,,,,,,

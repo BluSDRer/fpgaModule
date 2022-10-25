@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Oct 25 17:26:51 2022
+# Process ID: 22620
+# Current directory: C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.runs/fir_compiler_0_synth_1
+# Command line: vivado.exe -log fir_compiler_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_compiler_0.tcl
+# Log file: C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.runs/fir_compiler_0_synth_1/fir_compiler_0.vds
+# Journal file: C:/Users/jialf/Desktop/fpgaModule/fir_Flter/fir_Flter.runs/fir_compiler_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fir_compiler_0.tcl -notrace
