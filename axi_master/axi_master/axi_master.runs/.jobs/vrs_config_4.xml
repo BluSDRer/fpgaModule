@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="axi_test_my_axi_master_0_0_synth_1" LaunchDir="C:/Users/jialf/Desktop/fpgaModule/axi_master/axi_master/axi_master.runs/axi_test_my_axi_master_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_test_my_axi_slave_0_0_synth_1" LaunchDir="C:/Users/jialf/Desktop/fpgaModule/axi_master/axi_master/axi_master.runs/axi_test_my_axi_slave_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_test_clk_wiz_0_synth_1" LaunchDir="C:/Users/jialf/Desktop/fpgaModule/axi_master/axi_master/axi_master.runs/axi_test_clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_test_rst_clk_wiz_100M_0_synth_1" LaunchDir="C:/Users/jialf/Desktop/fpgaModule/axi_master/axi_master/axi_master.runs/axi_test_rst_clk_wiz_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
