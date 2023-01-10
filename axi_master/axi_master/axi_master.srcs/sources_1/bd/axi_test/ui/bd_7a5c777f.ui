@@ -1,0 +1,37 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port axi_rd_0 -pg 1 -y -260 -defaultsOSRD
+preplace port clk_100MHz -pg 1 -y -650 -defaultsOSRD
+preplace port reset_rtl_0_0 -pg 1 -y -730 -defaultsOSRD
+preplace port m00_axi_init_axi_txn_0 -pg 1 -y -240 -defaultsOSRD
+preplace port reset_rtl_0 -pg 1 -y -670 -defaultsOSRD
+preplace portBus axi_r_addr_0 -pg 1 -y -280 -defaultsOSRD
+preplace portBus axi_w_addr_0 -pg 1 -y -300 -defaultsOSRD
+preplace portBus axi_w_data_0 -pg 1 -y -320 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y -660 -defaultsOSRD
+preplace inst my_axi_master_0_axi_periph -pg 1 -lvl 4 -y -220 -defaultsOSRD
+preplace inst my_axi_slave_0 -pg 1 -lvl 1 -y -530 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 2 -y -690 -defaultsOSRD
+preplace inst my_axi_master_0 -pg 1 -lvl 2 -y -260 -defaultsOSRD
+preplace netloc axi_rd_0_1 1 0 2 NJ -260 NJ
+preplace netloc reset_rtl_0_0_1 1 0 2 NJ -730 240J
+preplace netloc clk_wiz_locked 1 1 1 N
+preplace netloc axi_r_addr_0_1 1 0 2 NJ -280 NJ
+preplace netloc my_axi_master_0_axi_periph_M00_AXI 1 0 5 20 -450 N -450 NJ -450 NJ -450 950
+preplace netloc axi_w_addr_0_1 1 0 2 NJ -300 NJ
+preplace netloc my_axi_master_0_M00_AXI 1 2 2 NJ -290 640
+preplace netloc m00_axi_init_axi_txn_0_1 1 0 2 NJ -240 240J
+preplace netloc reset_rtl_0_1 1 0 1 NJ
+preplace netloc axi_w_data_0_1 1 0 2 NJ -320 NJ
+preplace netloc clk_100MHz_1 1 0 1 NJ
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 0 4 40 -220 250 -130 600 -160 650
+preplace netloc clk_wiz_clk_out1 1 0 4 30 -440 260 -140 N -140 640
+levelinfo -pg 1 0 140 430 620 800 970 -top -790 -bot 160
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"3"
+}

@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/axi_test/ip/axi_test_rst_clk_wiz_100M_0/sim/axi_test_rst_clk_wiz_100M_0.vhd" \
+
+nosort

@@ -1,0 +1,14 @@
+verilog xil_defaultlib --include "../../../../axi_master.srcs/sources_1/bd/axi_test/ipshared/85a3" \
+"../../../bd/axi_test/ipshared/8f31/hdl/my_axi_master_v1_0_M00_AXI.v" \
+"../../../bd/axi_test/ipshared/8f31/hdl/my_axi_master_v1_0.v" \
+"../../../bd/axi_test/ip/axi_test_my_axi_master_0_0/sim/axi_test_my_axi_master_0_0.v" \
+"../../../bd/axi_test/ipshared/0288/hdl/my_axi_slave_v1_0_S00_AXI.v" \
+"../../../bd/axi_test/ipshared/0288/hdl/my_axi_slave_v1_0.v" \
+"../../../bd/axi_test/ip/axi_test_my_axi_slave_0_0/sim/axi_test_my_axi_slave_0_0.v" \
+"../../../bd/axi_test/ip/axi_test_clk_wiz_0/axi_test_clk_wiz_0_clk_wiz.v" \
+"../../../bd/axi_test/ip/axi_test_clk_wiz_0/axi_test_clk_wiz_0.v" \
+"../../../bd/axi_test/sim/axi_test.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
