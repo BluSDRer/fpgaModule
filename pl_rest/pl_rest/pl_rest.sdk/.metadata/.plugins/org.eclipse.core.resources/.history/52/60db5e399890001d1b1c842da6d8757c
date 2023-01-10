@@ -1,0 +1,160 @@
+/*
+ * xdevcfg_pl.c
+ *
+ *  Created on: Dec 27, 2022
+ *      Author: jialf
+ */
+
+
+#include "xdevcfg_pl.h"
+
+
+void PL_Reset(XDcfg_Config *ConfigPtr)
+{
+	u32 CtrlReg;
+	CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+			XDCFG_CTRL_OFFSET);
+	XDcfg_WriteReg(DcfgInstPtr->Config.BaseAddr,
+			XDCFG_CTRL_OFFSET, (CtrlReg |
+					XDCFG_CTRL_PCFG_PROG_B_MASK));
+
+	//@lf reset prog
+	CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+			XDCFG_CTRL_OFFSET);
+	XDcfg_WriteReg(DcfgInstPtr->Config.BaseAddr,
+			XDCFG_CTRL_OFFSET, (CtrlReg &
+					(~XDCFG_CTRL_PCFG_PROG_B_MASK)));
+
+	//@lf wait for reset
+	while((XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr, XDCFG_STATUS_OFFSET)
+				& XDCFG_STATUS_PCFG_INIT_MASK) == 1);
+
+	//@lf set prog
+	CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+				XDCFG_CTRL_OFFSET);
+		XDcfg_WriteReg(DcfgInstPtr->Config.BaseAddr,
+				XDCFG_CTRL_OFFSET, (CtrlReg |
+						XDCFG_CTRL_PCFG_PROG_B_MASK));
+	//@lf wait for set
+	while((XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr, XDCFG_STATUS_OFFSET)
+				& XDCFG_STATUS_PCFG_INIT_MASK) == 0);
+}
+
+int XDcfgPolled(XDcfg *DcfgInstPtr, u16 DeviceId)
+{
+	int Status;
+	u32 IntrStsReg = 0;
+	u32 StatusReg;
+	u32 PartialCfg = 0;
+
+	XDcfg_Config *ConfigPtr;
+	/*
+	 * Initialize the Device Configuration Interface driver.
+	 */
+	ConfigPtr = XDcfg_LookupConfig(DeviceId);
+
+	/*
+	 * This is where the virtual address would be used, this example
+	 * uses physical address.
+	 */
+	Status = XDcfg_CfgInitialize(DcfgInstPtr, ConfigPtr,
+					ConfigPtr->BaseAddr);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+
+	Status = XDcfg_SelfTest(DcfgInstPtr);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	/*
+	 * Check first time configuration or partial reconfiguration
+	 */
+	IntrStsReg = XDcfg_IntrGetStatus(DcfgInstPtr);
+	if (IntrStsReg & XDCFG_IXR_DMA_DONE_MASK) {
+		PartialCfg = 1;
+	}
+
+	/*
+	 * Enable the pcap clock.
+	 */
+	StatusReg = Xil_In32(SLCR_PCAP_CLK_CTRL);
+	if (!(StatusReg & SLCR_PCAP_CLK_CTRL_EN_MASK)) {
+		Xil_Out32(SLCR_UNLOCK, SLCR_UNLOCK_VAL);
+		Xil_Out32(SLCR_PCAP_CLK_CTRL,
+				(StatusReg | SLCR_PCAP_CLK_CTRL_EN_MASK));
+		Xil_Out32(SLCR_UNLOCK, SLCR_LOCK_VAL);
+	}
+
+	/*
+	 * Disable the level-shifters from PS to PL.
+	 */
+	if (!PartialCfg) {
+		Xil_Out32(SLCR_UNLOCK, SLCR_UNLOCK_VAL);
+		Xil_Out32(SLCR_LVL_SHFTR_EN, 0xA);
+		Xil_Out32(SLCR_LOCK, SLCR_LOCK_VAL);
+	}
+
+	/*
+	 * Select PCAP interface for partial reconfiguration
+	 */
+	if (PartialCfg) {
+		XDcfg_EnablePCAP(DcfgInstPtr);
+		XDcfg_SetControlRegister(DcfgInstPtr, XDCFG_CTRL_PCAP_PR_MASK);
+	}
+
+	/*
+	 * Clear the interrupt status bits
+	 */
+	XDcfg_IntrClear(DcfgInstPtr, (XDCFG_IXR_PCFG_DONE_MASK |
+					XDCFG_IXR_D_P_DONE_MASK |
+					XDCFG_IXR_DMA_DONE_MASK));
+
+	/* Check if DMA command queue is full */
+	StatusReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+				XDCFG_STATUS_OFFSET);
+	if ((StatusReg & XDCFG_STATUS_DMA_CMD_Q_F_MASK) ==
+			XDCFG_STATUS_DMA_CMD_Q_F_MASK) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Download bitstream in non secure mode
+	 */
+
+
+	XDcfg_Transfer(DcfgInstPtr, (u8 *)BIT_STREAM_LOCATION,
+			BIT_STREAM_SIZE_WORDS,
+			(u8 *)XDCFG_DMA_INVALID_ADDRESS,
+			0, XDCFG_NON_SECURE_PCAP_WRITE);
+
+	/* Poll IXR_DMA_DONE */
+	IntrStsReg = XDcfg_IntrGetStatus(DcfgInstPtr);
+	while ((IntrStsReg & XDCFG_IXR_DMA_DONE_MASK) !=
+			XDCFG_IXR_DMA_DONE_MASK) {
+		IntrStsReg = XDcfg_IntrGetStatus(DcfgInstPtr);
+	}
+
+	if (PartialCfg) {
+		/* Poll IXR_D_P_DONE */
+		while ((IntrStsReg & XDCFG_IXR_D_P_DONE_MASK) !=
+				XDCFG_IXR_D_P_DONE_MASK) {
+			IntrStsReg = XDcfg_IntrGetStatus(DcfgInstPtr);
+		}
+	} else {
+		/* Poll IXR_PCFG_DONE */
+		while ((IntrStsReg & XDCFG_IXR_PCFG_DONE_MASK) !=
+				XDCFG_IXR_PCFG_DONE_MASK) {
+			IntrStsReg = XDcfg_IntrGetStatus(DcfgInstPtr);
+		}
+		/*
+		 * Enable the level-shifters from PS to PL.
+		 */
+		Xil_Out32(SLCR_UNLOCK, SLCR_UNLOCK_VAL);
+		Xil_Out32(SLCR_LVL_SHFTR_EN, 0xF);
+		Xil_Out32(SLCR_LOCK, SLCR_LOCK_VAL);
+	}
+
+	return XST_SUCCESS;
+}

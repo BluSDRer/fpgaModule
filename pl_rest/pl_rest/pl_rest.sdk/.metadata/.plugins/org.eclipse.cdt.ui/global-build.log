@@ -1,0 +1,1362 @@
+09:59:26 **** Build of project pl_rest_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling myAXI_Slave..."
+myAXI_Slave_selftest.c: In function 'MYAXI_SLAVE_Reg_SelfTest':
+myAXI_Slave_selftest.c:52:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYAXI_SLAVE_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+myAXI_Slave_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+09:59:42 **** Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+09:59:44 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:01:11 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19336	   1144	  22568	  43048	   a828	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:01:19 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19336	   1144	  22568	  43048	   a828	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:01:25 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19492	   1144	  22568	  43204	   a8c4	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:01:37 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:02:21 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70480	   2580	  23328	  96388	  17884	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:02:41 **** Auto Build of project pl_rest_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myAXI_Slave_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling myAXI_Slave..."
+myAXI_Slave_selftest.c: In function 'MYAXI_SLAVE_Reg_SelfTest':
+myAXI_Slave_selftest.c:52:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYAXI_SLAVE_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+myAXI_Slave_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+10:02:56 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70488	   2580	  23328	  96396	  1788c	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:03:00 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:03:27 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70488	   2580	  23328	  96396	  1788c	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:03:40 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:5: error: too few arguments to function 'Xil_Out32'
+     Xil_Out32();
+     ^~~~~~~~~
+In file included from ../../pl_rest_test_bsp/ps7_cortexa9_0/include/sleep.h:52:0,
+                 from ../src/helloworld.c:51:
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xil_io.h:219:20: note: declared here
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+10:04:01 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70552	   2580	  23328	  96460	  178cc	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:04:23 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("Hello World  = %x \n\r",Xil_In32(0x43c00000));
+                         ~^       ~~~~~~~~~~~~~~~~~~~~
+                         %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70624	   2580	  23328	  96532	  17914	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:04:27 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:05:19 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:23: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("reg_0  = %x \n\r",Xil_In32(0x43c00000));
+                      ~^       ~~~~~~~~~~~~~~~~~~~~
+                      %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70616	   2580	  23328	  96524	  1790c	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:05:50 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg_0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+../src/helloworld.c:58:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg_0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70688	   2580	  23328	  96596	  17954	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:06:03 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70688	   2580	  23328	  96596	  17954	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:06:13 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70688	   2580	  23328	  96596	  17954	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:07:36 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70752	   2580	  23328	  96660	  17994	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:08:11 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:65:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70752	   2580	  23328	  96660	  17994	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:08:25 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:65:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70752	   2580	  23328	  96660	  17994	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:08:28 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:12:04 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:12:37 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:66:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70752	   2580	  23328	  96660	  17994	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:12:41 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:58:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:66:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                          ~^       ~~~~~~~~~~~~~~~~~~~~
+                          %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70752	   2580	  23328	  96660	  17994	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:12:44 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:13:10 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read1_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+../src/helloworld.c:58:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read2_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+../src/helloworld.c:66:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read3_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70792	   2580	  23328	  96700	  179bc	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:13:13 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:13:32 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read1_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+../src/helloworld.c:58:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read2_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+../src/helloworld.c:66:28: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("read3_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                           ~^       ~~~~~~~~~~~~~~~~~~~~
+                           %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70792	   2580	  23328	  96700	  179bc	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:13:36 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:14:19 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:29: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+      printf("read1_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                            ~^       ~~~~~~~~~~~~~~~~~~~~
+                            %lx
+../src/helloworld.c:61:29: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+      printf("read2_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                            ~^       ~~~~~~~~~~~~~~~~~~~~
+                            %lx
+../src/helloworld.c:67:29: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+      printf("read3_reg0  = %x \n\r",Xil_In32(0x43c00000));
+                            ~^       ~~~~~~~~~~~~~~~~~~~~
+                            %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70792	   2580	  23328	  96700	  179bc	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+10:14:30 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:11:15 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31916	   2184	  22632	  56732	   dd9c	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:12:43 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31916	   2184	  22632	  56732	   dd9c	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:20:03 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31916	   2184	  22632	  56732	   dd9c	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:24:36 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:32:17 **** Build of configuration Debug for project pl_rest_test_bsp_xdevcfg_polled_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_polled_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_polled_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_polled_example.d" -MT"src/xdevcfg_polled_example.o" -o "src/xdevcfg_polled_example.o" "../src/xdevcfg_polled_example.c"
+'Finished building: ../src/xdevcfg_polled_example.c'
+' '
+'Building target: pl_rest_test_bsp_xdevcfg_polled_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test_bsp_xdevcfg_polled_example_1.elf"  ./src/xdevcfg_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test_bsp_xdevcfg_polled_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test_bsp_xdevcfg_polled_example_1.elf  |tee "pl_rest_test_bsp_xdevcfg_polled_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27160	   1160	  22600	  50920	   c6e8	pl_rest_test_bsp_xdevcfg_polled_example_1.elf
+'Finished building: pl_rest_test_bsp_xdevcfg_polled_example_1.elf.size'
+' '
+11:32:19 **** Auto Build of configuration Debug for project pl_rest_test_bsp_xdevcfg_polled_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:36:12 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:36:26 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37212	   2192	  22664	  62068	   f274	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:37:12 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+In file included from ../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg.h:166:0,
+                 from ../src/xdevcfg_pl.h:12,
+                 from ../src/xdevcfg_pl.c:9:
+../src/xdevcfg_pl.c: In function 'PL_Reset':
+../src/xdevcfg_pl.c:15:26: error: 'DcfgInstPtr' undeclared (first use in this function); did you mean 'DcfgInstance'?
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                          ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+../src/xdevcfg_pl.c:15:26: note: each undeclared identifier is reported only once for each function it appears in
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                          ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+make: *** [src/subdir.mk:29: src/xdevcfg_pl.o] Error 1
+11:38:11 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+In file included from ../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg.h:166:0,
+                 from ../src/xdevcfg_pl.h:12,
+                 from ../src/xdevcfg_pl.c:9:
+../src/xdevcfg_pl.c: In function 'PL_Reset':
+../src/xdevcfg_pl.c:15:26: error: 'DcfgInstPtr' undeclared (first use in this function); did you mean 'DcfgInstance'?
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                          ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+../src/xdevcfg_pl.c:15:26: note: each undeclared identifier is reported only once for each function it appears in
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                          ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+make: *** [src/subdir.mk:29: src/xdevcfg_pl.o] Error 1
+11:38:19 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+In file included from ../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg.h:166:0,
+                 from ../src/xdevcfg_pl.h:12,
+                 from ../src/xdevcfg_pl.c:9:
+../src/xdevcfg_pl.c: In function 'PL_Reset':
+../src/xdevcfg_pl.c:15:37: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                                     ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+../src/xdevcfg_pl.c:17:28: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  XDcfg_WriteReg(DcfgInstPtr->Config.BaseAddr,
+                            ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:377:13: note: in definition of macro 'XDcfg_WriteReg'
+  Xil_Out32((BaseAddr) + (RegOffset), (Data))
+             ^~~~~~~~
+../src/xdevcfg_pl.c:22:37: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                                     ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+../src/xdevcfg_pl.c:24:28: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  XDcfg_WriteReg(DcfgInstPtr->Config.BaseAddr,
+                            ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:377:13: note: in definition of macro 'XDcfg_WriteReg'
+  Xil_Out32((BaseAddr) + (RegOffset), (Data))
+             ^~~~~~~~
+../src/xdevcfg_pl.c:29:34: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  while((XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr, XDCFG_STATUS_OFFSET)
+                                  ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+../src/xdevcfg_pl.c:33:37: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  CtrlReg = XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr,
+                                     ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+../src/xdevcfg_pl.c:35:29: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+   XDcfg_WriteReg(DcfgInstPtr->Config.BaseAddr,
+                             ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:377:13: note: in definition of macro 'XDcfg_WriteReg'
+  Xil_Out32((BaseAddr) + (RegOffset), (Data))
+             ^~~~~~~~
+../src/xdevcfg_pl.c:39:34: error: 'XDcfg_Config {aka struct <anonymous>}' has no member named 'Config'
+  while((XDcfg_ReadReg(DcfgInstPtr->Config.BaseAddr, XDCFG_STATUS_OFFSET)
+                                  ^
+../../pl_rest_test_bsp/ps7_cortexa9_0/include/xdevcfg_hw.h:359:12: note: in definition of macro 'XDcfg_ReadReg'
+  Xil_In32((BaseAddr) + (RegOffset))
+            ^~~~~~~~
+make: *** [src/subdir.mk:29: src/xdevcfg_pl.o] Error 1
+11:39:03 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37212	   2192	  22664	  62068	   f274	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:39:23 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37276	   2192	  22664	  62132	   f2b4	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:40:50 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:15: warning: implicit declaration of function 'XDcfgPolled' [-Wimplicit-function-declaration]
+      Status = XDcfgPolled(&DcfgInstance,DCFG_DEVICE_ID);
+               ^~~~~~~~~~~
+../src/helloworld.c:62:28: error: 'DcfgInstance' undeclared (first use in this function)
+      Status = XDcfgPolled(&DcfgInstance,DCFG_DEVICE_ID);
+                            ^~~~~~~~~~~~
+../src/helloworld.c:62:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:62:41: error: 'DCFG_DEVICE_ID' undeclared (first use in this function); did you mean 'UART_DEVICE_ID'?
+      Status = XDcfgPolled(&DcfgInstance,DCFG_DEVICE_ID);
+                                         ^~~~~~~~~~~~~~
+                                         UART_DEVICE_ID
+../src/helloworld.c:63:20: error: 'XST_SUCCESS' undeclared (first use in this function)
+      if (Status != XST_SUCCESS) {
+                    ^~~~~~~~~~~
+../src/helloworld.c:65:14: error: 'XST_FAILURE' undeclared (first use in this function)
+       return XST_FAILURE;
+              ^~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+11:41:03 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39912	   2200	  22664	  64776	   fd08	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:41:18 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:41:29 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:41:46 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:42:29 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:44:52 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:45:30 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:45:33 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:45:37 **** Incremental Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:46:35 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:46:49 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:47:39 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:47:44 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:47:52 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+11:47:56 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '

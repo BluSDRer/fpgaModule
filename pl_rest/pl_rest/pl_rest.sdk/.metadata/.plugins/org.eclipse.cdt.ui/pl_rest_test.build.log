@@ -1,0 +1,28 @@
+11:47:56 **** Auto Build of configuration Debug for project pl_rest_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/xdevcfg_pl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_pl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pl_rest_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_pl.d" -MT"src/xdevcfg_pl.o" -o "src/xdevcfg_pl.o" "../src/xdevcfg_pl.c"
+'Finished building: ../src/xdevcfg_pl.c'
+' '
+'Building target: pl_rest_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pl_rest_test_bsp/ps7_cortexa9_0/lib -o "pl_rest_test.elf"  ./src/helloworld.o ./src/platform.o ./src/xdevcfg_pl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_rest_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pl_rest_test.elf  |tee "pl_rest_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40040	   2200	  22664	  64904	   fd88	pl_rest_test.elf
+'Finished building: pl_rest_test.elf.size'
+' '
+
+11:47:57 Build Finished (took 1s.149ms)
+
